@@ -46,7 +46,11 @@ class PathToTFConverterNode(Node):
             transform_stamped.transform.rotation = pose.pose.orientation
 
             self.tf_broadcaster.sendTransform(transform_stamped)
+<<<<<<< HEAD
             self.get_logger().info(f'Published TF for pose {i}')
+=======
+            # self.get_logger().info(f'Published TF for pose {i}')
+>>>>>>> 8073377 (initial commit to deploy on Spot)
 
 
 
